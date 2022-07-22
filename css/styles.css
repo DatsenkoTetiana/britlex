@@ -1,6 +1,11 @@
 :root {
     --styles-font: font-family: 'Poppins', sans-serif;
     --color-black: #000000;
+    --color-gr: #8F95A5;
+    --background-btn: #263238;
+    --color-white: #FFFFFF;
+    --hover-btn: #50545e;
+    --nav-color: #0c7ad4;
 }
 
 h1,
@@ -31,6 +36,10 @@ body {
 
 .header {
     padding: 55px 0;
+}
+
+.section {
+    padding: 180px 0;
 }
 
 .container {
@@ -76,7 +85,12 @@ body {
     padding: 20px 0;
 }
 
-.btn {
+.nav-link:hover,
+.nav-link:hover {
+    color: var(--nav-color);
+}
+
+.btn-header {
     font-weight: 400;
     font-size: 20px;
     line-height: calc(30 / 20);
@@ -92,4 +106,67 @@ body {
     text-align: center;
     cursor: pointer;
     margin-left: 121px;
+}
+
+.btn-header:hover,
+.btn-header:hover {
+    background-color: var(--background-btn);
+    color: var(--color-white);
+}
+
+/* hero */
+.container-hero {
+    display: flex;
+}
+
+.hero-left {
+    width: 540px;
+    margin-right: auto;
+}
+
+.title-hero {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: calc(80/ 64);
+
+    margin-bottom: 40px;
+}
+
+.hero-desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    color: var(--color-gr);
+
+    margin-bottom: 60px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(54 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    background-color: var(--background-btn);
+    color: var(--color-white);
+    padding: 23px 64px;
+    border-radius: 10px;
+    border: none;
+
+    min-width: 426px;
+    min-height: 100px;
+}
+
+.btn:hover,
+.btn:hover {
+    background-color: var(--hover-btn);
+}
+
+/* skill */
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72 / 48);
+    text-align: center;
 }
