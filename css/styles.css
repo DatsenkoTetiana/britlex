@@ -48,7 +48,6 @@ body {
 .nav-header {
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 
 .logo {
@@ -92,4 +91,5 @@ body {
     min-height: 70px;
     text-align: center;
     cursor: pointer;
+    margin-left: 121px;
 }
